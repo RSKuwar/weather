@@ -1,0 +1,50 @@
+.city-table-container {
+    margin: 20px;
+  }
+  
+  .city-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .city-table th, .city-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .city-table th {
+    background-color: #ff0000;
+  }
+  
+  .city-table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .autocomplete-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .autocomplete-input:focus {
+    outline: none;
+  }
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 768px) {
+    .city-table {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .city-table {
+      font-size: 12px; 
+    }
+  }
